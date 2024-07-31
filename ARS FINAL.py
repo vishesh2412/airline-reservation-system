@@ -2,7 +2,7 @@ import mysql.connector
 from tabulate import tabulate
 import random
 
-myobj=mysql.connector.connect(host="localhost",user="root",passwd="Visheshg@2412",database="ars")
+myobj=mysql.connector.connect(host="localhost",user="root",passwd="YOUR_PASSWORD",database="ars")
 if myobj.connect:
     print(" ")
     print("✈✈✈✈WELCOME TO AIRLINE RESERVATION SYSTEM PROGRAM✈✈✈✈".center(430))                                                                
